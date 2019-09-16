@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="36px" viewBox="0 0 65 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Default-state-UT" transform="translate(-761.000000, -684.000000)" fill-rule="nonzero" stroke="#000000">
+            <g id="Group-9" transform="translate(761.000000, 684.000000)">
+                <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="29.5" y="0.5" width="7" height="29" rx="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="0.5" y="3.5" width="64" height="32" rx="4"></rect>
+                <path d="M30.9665634,30.1666667 L26.625,30.1666667" id="Line-3-Copy-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M39.9665634,30.1666667 L35.625,30.1666667" id="Line-3-Copy-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M19,17.5 L15.5,17.5 L15.5,14 C15.5,13.1715729 14.8284271,12.5 14,12.5 L13,12.5 C12.1715729,12.5 11.5,13.1715729 11.5,14 L11.5,17.5 L8,17.5 C7.17157288,17.5 6.5,18.1715729 6.5,19 L6.5,20 C6.5,20.8284271 7.17157288,21.5 8,21.5 L11.5,21.5 L11.5,25 C11.5,25.8284271 12.1715729,26.5 13,26.5 L14,26.5 C14.8284271,26.5 15.5,25.8284271 15.5,25 L15.5,21.5 L19,21.5 C19.8284271,21.5 20.5,20.8284271 20.5,20 L20.5,19 C20.5,18.1715729 19.8284271,17.5 19,17.5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <circle id="Oval" stroke-width="0.9" fill="#FFFFFF" cx="48.5" cy="14.5" r="2.5"></circle>
+                <circle id="Oval-Copy-3" stroke-width="0.9" fill="#FFFFFF" cx="48.5" cy="23.5" r="2.5"></circle>
+                <circle id="Oval-Copy" stroke-width="0.9" fill="#FFFFFF" cx="54.5" cy="19.5" r="2.5"></circle>
+                <circle id="Oval-Copy-2" stroke-width="0.9" fill="#FFFFFF" cx="43.5" cy="19.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
