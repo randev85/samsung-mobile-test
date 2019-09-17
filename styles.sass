@@ -1,3 +1,23 @@
+$break-small: 450px
+$break-large: 1024px
+
+@font-face
+    font-family: 'samsungOne'
+    src: url(fonts/SamsungOne-400.woff2)
+    font-style: normal
+    font-weight: 400
+
+@font-face
+    font-family: 'samsungOne-700'
+    src: url(fonts/SamsungOne-700.woff2)
+    font-style: normal
+    font-weight: 700
+
+@font-face
+    font-family: 'samsungSharp'
+    src: url(fonts/SamsungSharpSansBd.woff)
+    font-style: bold
+    font-weight: 700
 
 *
     margin: 0
@@ -14,39 +34,66 @@ header
         h2
             text-align: center
             margin-bottom: 10px
+            padding: 5px
+            font-family: 'samsungSharp', Arial
         p
-        text-align: center
+            text-align: center
+            padding: 5px
+            font-family: 'SamsungOne', Arial
+
 
 main
-    padding: 45px 0 30px 0
+    padding: 45px 20px 30px 20px
     .content-container
         max-width: 800px
         margin: auto
         h3
             margin-bottom: 18px
+            font-family: 'SamsungOne-700', Arial
         .content-row
             width: 100%
             justify-content: center
             margin-bottom: 45px
-            .card-container
+            button
                 background-color: #ffffff
                 border: 1px solid #d4d4d4
                 border-radius: 10px
                 box-shadow: 1px 4px 1px #e5e5e5
-                min-width: 31%
+                width: 30%
                 display: inline-block
-                margin: 0 4px 15px 4px
+                margin: 0 1% 15px 1%
                 text-align: center
                 padding: 25px 0px
                 img
                     height: 50px
                 h3 
                     margin-bottom: 6px
-#price img
-    height: 20px 
-    margin-bottom: 6px   
+                    font-family: 'SamsungOne-700', Arial
+                p
+                    font-family: 'SamsungOne', Arial    
+            button:hover
+                box-shadow: 2px 2px 2px 2px #000000        
+#price
+    button
+        img
+            height: 20px 
+            margin-bottom: 6px   
+        @media screen and (max-width: 390px)
+            width: 29.2%
+            img
+                height: 15px
+            p
+                font-size: 13px    
 
+#spec 
+    button
+        @media only screen and (max-width: $break-large)
+            width: 47%
+        @media screen and (max-width: $break-small)
+            width: 100%
+    
 footer
+    display: none
     background-color: #000000    
     .content-container
         max-width: 800px
@@ -57,6 +104,7 @@ footer
             color: #ffffff
             font-size: 20px
             line-height: 0px
+            font-family: 'SamsungOne', Arial
             img
                 position: relative
                 top: 8px

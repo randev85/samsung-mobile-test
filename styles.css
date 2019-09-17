@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "samsungOne";
+  src: url(fonts/SamsungOne-400.woff2);
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "samsungOne-700";
+  src: url(fonts/SamsungOne-700.woff2);
+  font-style: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: "samsungSharp";
+  src: url(fonts/SamsungSharpSansBd.woff);
+  font-style: bold;
+  font-weight: 700; }
 * {
   margin: 0; }
   * body {
@@ -9,43 +24,68 @@ header {
   background-color: #ffffff;
   border-bottom: 2px solid #d4d4d4;
   padding: 50px 0 40px 0; }
-  header .content-container {
-    text-align: center; }
-    header .content-container h2 {
-      text-align: center;
-      margin-bottom: 10px; }
+  header .content-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: "samsungSharp", Arial; }
+  header .content-container p {
+    text-align: center;
+    padding: 5px;
+    font-family: "SamsungOne", Arial; }
 
 main {
-  padding: 45px 0 30px 0; }
+  padding: 45px 20px 30px 20px; }
   main .content-container {
     max-width: 800px;
     margin: auto; }
     main .content-container h3 {
-      margin-bottom: 18px; }
+      margin-bottom: 18px;
+      font-family: "SamsungOne-700", Arial; }
     main .content-container .content-row {
       width: 100%;
       justify-content: center;
       margin-bottom: 45px; }
-      main .content-container .content-row .card-container {
+      main .content-container .content-row button {
         background-color: #ffffff;
         border: 1px solid #d4d4d4;
         border-radius: 10px;
         box-shadow: 1px 4px 1px #e5e5e5;
-        min-width: 31%;
+        width: 30%;
         display: inline-block;
-        margin: 0 4px 15px 4px;
+        margin: 0 1% 15px 1%;
         text-align: center;
         padding: 25px 0px; }
-        main .content-container .content-row .card-container img {
+        main .content-container .content-row button img {
           height: 50px; }
-        main .content-container .content-row .card-container h3 {
-          margin-bottom: 6px; }
+        main .content-container .content-row button h3 {
+          margin-bottom: 6px;
+          font-family: "SamsungOne-700", Arial; }
+        main .content-container .content-row button p {
+          font-family: "SamsungOne", Arial; }
+      main .content-container .content-row button:hover {
+        box-shadow: 2px 2px 2px 2px #000000; }
 
-#price img {
+#price button img {
   height: 20px;
   margin-bottom: 6px; }
+@media screen and (max-width: 390px) {
+  #price button {
+    width: 29.2%; }
+    #price button img {
+      height: 15px; }
+    #price button p {
+      font-size: 13px; } }
+
+@media only screen and (max-width: 1024px) {
+  #spec button {
+    width: 47%; } }
+@media screen and (max-width: 450px) {
+  #spec button {
+    width: 100%; } }
 
 footer {
+  display: none;
   background-color: #000000; }
   footer .content-container {
     max-width: 800px;
@@ -55,7 +95,8 @@ footer {
       text-align: center;
       color: #ffffff;
       font-size: 20px;
-      line-height: 0px; }
+      line-height: 0px;
+      font-family: "SamsungOne", Arial; }
       footer .content-container p img {
         position: relative;
         top: 8px;
