@@ -17,8 +17,11 @@ $(document).on('click', '#spec ul li', function() {
     }   
   });
 
-  if ($('#price ul li.active').length > 0 && $('#spec ul li.active').length > 1) {
-    $("footer").css("display", "block");
-  } else {
-    $("footer").css("display", "none");
-  }
+  $(document).on('click', '*', function(){
+    if ($('#price ul li.active').length > 0 && $('#spec ul li.active').length > 2) {
+        $("footer").css("display", "block");
+      } else {
+        $("footer").css("display", "none");
+      }   
+})
+  
