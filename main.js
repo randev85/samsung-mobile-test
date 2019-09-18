@@ -24,4 +24,11 @@ $(document).on('click', '#spec ul li', function() {
         $("footer").css("display", "none");
       }   
 })
-  
+
+fetch("json/data.json")
+    .then(function(resp){
+        return resp.json();
+    })
+    .then(function(data){
+        console.log(data);
+    })
